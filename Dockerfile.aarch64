@@ -1,0 +1,12 @@
+FROM balenalib/raspberrypi3-ubuntu-python:3.6-bionic-run
+
+
+WORKDIR /usr/src/app
+
+RUN apt-get update && apt-get install -y build-essential python3-pil
+
+RUN pip3 install RPI.GPIO adafruit-blinka adafruit-circuitpython-ssd1306
+
+COPY stats.py .
+
+CMD [ "python3", "stats.py" ]
