@@ -1,2 +1,5 @@
 # pi-oled
 Container for driving the [Adafruit PiOLED](https://www.adafruit.com/product/3527) on a Raspberry Pi. Add this container to any project to include an informative (and tiny) device stats display. Modify the stats.py file to change the contents of the display.
+
+This is a test button, don't use:
+[![](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/balena-io-playground/folder-test2)
